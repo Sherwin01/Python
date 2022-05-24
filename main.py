@@ -3,16 +3,18 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
+x = 332
+y = 2031
 
-my_age = 22
-mom_age = 61
-sister_age = 29
+if x >= y:
+    print("x is greater than or equal to y")
+elif x == y:
+    print("x is equal to y")
+else:
+    print("x is less than y")
 
-print(mom_age < sister_age and my_age == 22)
-print(mom_age == 61)
-print(mom_age > 34 or sister_age == 22)
-print(mom_age >= 54)
-print(not(sister_age <= 400 and my_age == 22))
+
+
 
 
 
